@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: #121826;
+    font-size: 15px;
+}
+
+header{
+    padding: 10px;
+    display: -webkit-flex;
+}
+
+
+main{
+    max-width: 100%;
+   width: 60%;
+   margin: auto;
+   height: 50vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.bg-color-bright-orange{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.bg-color-dark-cyan{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.bg-color-very-dark-cyan{
+    background-color: hsl(179, 100%, 13%);
+}
+
+.box {
+    max-width: 23.438rem;
+    padding: 4rem 2rem 2rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 4rem 2rem 2rem;
+}
+
+
+.box1{
+    
+    border-radius: 7.5px 0px 0px 7.5px;
+}
+
+.box2{
+    background-color: hsl(184, 100%, 22%); 
+}
+
+.box3{
+    
+    border-radius: 0px 7.5px 7.5px 0px;
+}
+
+img {
+    display: block;
+    max-width: 18.75rem;
+    margin-bottom: 1.3rem;
+}
+
+h1 {
+    font-family: var(--ff-title);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.02rem;
+    color: hsl(0, 0%, 95%);
+    margin-bottom: 1.5rem;
+    max-width: 18.75rem;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 4rem;
+    max-width: 18.75rem;
+    opacity: 0.7;
+    font-family: 'Lexend Deca', sans-serif;
+     font-weight: 400;
+}
+
+a {
+    display: inline-block;
+    text-transform: capitalize;
+    max-width: 18.75rem;
+    margin-bottom: 2rem;
+    text-decoration: none;
+    cursor: pointer;
+    padding: .5rem 1.5rem;
+    border: 1px solid transparent;
+    border-radius: 1.3rem;
+    background: hsl(0, 0%, 95%);
+}
+
+a:active {
+    background: transparent;
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+}
+
+a:focus {
+    background: transparent;
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+}
+
+.box1-btn {
+    color: hsl(31, 77%, 52%);
+}
+
+.box2-btn {
+    color: hsl(184, 100%, 22%);
+}
+
+.box3-btn {
+    color: hsl(179, 100%, 13%);
+}
+
+button{
+    height: 40px;
+    width: 120px;
+    border: 2px solid white;
+    border-radius: 55px;
+    margin-top: 0px;
+    background-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: transparent;
+    color: white;
+    transition: 0.5s;
+}
+
+
+@media screen and (max-width: 768px) {
+    main{
+        display: flex;
+        
+    }
+    .box2 p{
+        line-height: 22.3px;
+    }
+    .box1 p{
+        line-height: 21.8px;
+    }
+    .box3 p{
+        line-height: 24.5px;
+    }
+    
+}
+
+
+@media screen and (max-width: 425px) {
+    main{
+        display:block;
+    }
+    .box1{
+        border-radius: 10px 10px 0px 0px;
+    }
+    .box2{
+        border-radius: 0px;
+    }
+    .box3{
+        border-radius: 0px 0px 10px 10px;
+    }
+}
+
+
+
+@media screen and (max-width: 325px) {
+    main{
+        display:block;
+    }
+    .box1{
+        border-radius: 10px 10px 0px 0px;
+    }
+    .box2{
+        border-radius: 0px;
+    }
+    .box3{
+        border-radius: 0px 0px 10px 10px;
+    }
+}
